@@ -1,3 +1,5 @@
+Chapter 1
+
 Ls -a --hidden files
 touch chapter1.txt. -- make file
 
@@ -19,3 +21,8 @@ git remote add origin -- Creates remote to then connect local files to git hub
 
 git push -u origin master -- links up the local to remote,  push to name of remote, push to bench 'master'/default
 
+git branch thisIsABranch -- adds branch to main
+
+git branch -- shows the branches
+
+git checkout thisIsABranch. -- moves branch

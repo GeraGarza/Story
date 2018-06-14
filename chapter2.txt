@@ -1,3 +1,10 @@
-This isn't chapter 1
+This is chapter 1
 Git ignore ( rules to control files from local and remote)
 DS store files -- setting file that saves icons order
+
+
+What about swift files with API keys? Obviously, we need to push swift files to the remote repository in order for other developers to use and work on. However, how do we deal with swift files containing API keys?
+
+I would place the API keys in a .plist file and place the file under Gitignore. 
+
+Git clone https://github.com/austinzheng/swift-2048.git
