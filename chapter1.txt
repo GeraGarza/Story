@@ -1,1 +1,18 @@
-I wrote something special
+touch chapter1.txt. -- make file
+
+git status -- check whats in staging area
+
+git add chapter1.txt -- add to staging area
+
+git commit -m " Complete Chapter 1" -- add to local repository
+
+git add . -- add group
+
+git diff chapter1.txt  -- check difference in files, as to repository file
+
+git checkout chapter1.txt  -- get back old file, delete current
+
+git remote add origin -- Creates remote to then connect local files to git hub
+
+git push -u origin master -- links up the local to remote,  push to name of remote, push to bench 'master'/default
+
