@@ -1,3 +1,4 @@
+Ls -a --hidden files
 touch chapter1.txt. -- make file
 
 git status -- check whats in staging area
@@ -7,6 +8,8 @@ git add chapter1.txt -- add to staging area
 git commit -m " Complete Chapter 1" -- add to local repository
 
 git add . -- add group
+git rm --cached -r .  //removes all from staging area
+(remove 	recursive everything)
 
 git diff chapter1.txt  -- check difference in files, as to repository file
 
